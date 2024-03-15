@@ -15,11 +15,11 @@
 #
 
 # Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/lmodroid/config/common_full_tablet_wifionly.mk)
 
 # Inherit device configuration for porg_tab.
 include device/nvidia/foster/lineage.mk
 $(call inherit-product, device/nvidia/porg_tab/full_porg_tab.mk)
 
-PRODUCT_NAME := lineage_porg_tab
+PRODUCT_NAME := lmodroid_porg_tab
 PRODUCT_DEVICE := porg_tab
